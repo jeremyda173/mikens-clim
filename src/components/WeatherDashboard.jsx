@@ -161,14 +161,16 @@ function WeatherDashboard() {
 
   const forecastPoints = useMemo(() => buildForecastPoints(weatherData?.forecast), [weatherData])
 
+  const currentCityName = weatherData?.current?.name
+
   const backgroundImageUrl = useMemo(() => {
-    const backgroundCity = weatherData?.current?.name ?? city
+    const backgroundCity = currentCityName ?? city
     if (!backgroundCity) {
       return null
     }
     const query = encodeURIComponent(backgroundCity.split(',')[0])
     return `https://source.unsplash.com/1600x900/?${query},city,skyline`
-  }, [weatherData?.current?.name, city])
+  }, [currentCityName, city])
 
   useEffect(() => {
     if (!backgroundImageUrl) {
