@@ -1,0 +1,21 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title>Mikens Meteo Icon</title>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+    <linearGradient id="glyph" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#cbd5f5" stop-opacity="0.9" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="120" fill="url(#bg)" />
+  <path
+    fill="url(#glyph)"
+    d="M146 366c-18 0-32-14-32-32V178c0-14 9-26 22-30 13-5 27 0 35 11l85 115 85-115c8-11 22-16 35-11s22 16 22 30v156c0 18-14 32-32 32s-32-14-32-32v-76l-50 67c-12 16-39 16-50 0l-50-67v76c0 18-14 32-32 32Z"
+  />
+  <circle cx="360" cy="156" r="44" fill="rgba(248, 250, 252, 0.3)" />
+  <circle cx="374" cy="140" r="22" fill="rgba(248, 250, 252, 0.5)" />
+</svg>
+
